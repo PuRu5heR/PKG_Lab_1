@@ -29,7 +29,7 @@ git clone https://github.com/PuRu5heR/PKG_Lab_1.git
 
 2. Откройте файл `index.html` в вашем браузере:
 ```bash
-cd color-models-explorer
+cd PKG_Lab_1
 open index.html
 ```
 
