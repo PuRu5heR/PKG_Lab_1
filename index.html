@@ -88,6 +88,7 @@
 
         .input-group input[type="range"] {
             flex: 1;
+            min-width: 0;
         }
 
         .input-group input[type="number"] {
@@ -219,9 +220,40 @@
             transform: translateY(0);
         }
 
+        /* Адаптивные стили для мобильных устройств */
         @media (max-width: 768px) {
             .color-models {
                 grid-template-columns: 1fr;
+            }
+
+            .input-group {
+                flex-wrap: wrap;
+            }
+
+            .input-group input[type="range"] {
+                min-width: 150px;
+            }
+
+            .color-picker-wrapper {
+                height: 150px;
+            }
+
+            .tools {
+                flex-direction: column;
+            }
+
+            .tools button {
+                width: 100%;
+            }
+
+            .hex-input {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .hex-input input {
+                width: 100%;
+                max-width: 200px;
             }
         }
     </style>
