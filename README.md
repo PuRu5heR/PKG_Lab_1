@@ -1,5 +1,4 @@
 # Лабораторная работа №1 `Вариант 4`
-[![Russian](https://img.shields.io/badge/语言-俄文-red.svg)](README.md)
 [![HTML](https://img.shields.io/badge/HTML-5-orange.svg)](https://developer.mozilla.org/ru/docs/Web/HTML)
 [![CSS](https://img.shields.io/badge/CSS-3-blue.svg)](https://developer.mozilla.org/ru/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)](https://developer.mozilla.org/ru/docs/Web/JavaScript)
